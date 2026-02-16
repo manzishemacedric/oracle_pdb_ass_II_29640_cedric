@@ -6,8 +6,8 @@ Welcome to the documentation for **Assignment II** of the **INSY 8311 - Database
 ---
 
 ## 👨‍🎓 Student Spotlight
-- **Name:** CYUSA Chaste
-- **ID:** 29671
+- **Name:** MANZI SHEMA Cedric
+- **ID:** 29640
 - **Course:** INSY 8311 (PL/SQL Development)
 - **Instructor:** Eric Maniraguha
 
@@ -37,13 +37,13 @@ Welcome to the documentation for **Assignment II** of the **INSY 8311 - Database
 ### 🛠️ Task 1: Building the Core PDB
 In this phase, I set up the main work environment for future development.
 
-- **PDB Identity:** `ch_pdb_29671`
+- **PDB Identity:** `msc_pdb_29640`
 - **Root Admin:** `pdbadmin`
-- **Local Dev User:** `chaste_plsqlauca_29671`
+- **Local Dev User:** `manzi_plsqlauca_29671`
 
 **Steps Taken:**
 1. Logged into the CDB as `SYS`.
-2. Created the `ch_pdb_29671` pluggable database.
+2. Created the `msc_pdb_29671` pluggable database.
 3. Activated the PDB (switched status to OPEN).
 4. Created a dedicated user for PL/SQL development inside the PDB.
 5. Granted necessary roles to ensure the user can create tables and run queries.
@@ -56,7 +56,7 @@ In this phase, I set up the main work environment for future development.
 ### 🗑️ Task 2: Testing PDB Lifecycle (Create & Drop)
 A demonstration of how to spin up and tear down temporary environments.
 
-1. **Provisioned:** Spun up `ch_to_delete_pdb_29671`.
+1. **Provisioned:** Spun up `msc_to_delete_pdb_29640`.
 2. **Validated:** Verified it appears in the database list.
 3. **Shutdown:** Closed the PDB safely.
 4. **Clean up:** Dropped the PDB and deleted its datafiles from the disk.
@@ -71,23 +71,11 @@ Used the built-in Oracle Enterprise Manager Express to monitor the system.
 
 ---
 
-## 📁 What's Inside?
-```bash
-.
-├── README.md         # Original documentation
-├── README2.md        # Technical report version
-├── README3.md        # This guide (Modern version)
-└── Screenshots/      # Visual evidence of all tasks
-    ├── ... (Evidence files 1-8)
-```
-
----
 
 ## 📜 Legal & Integrity
 This project follows strictly the academic integrity guidelines. All work was performed manually on my local Oracle instance. 
+ 
 
-**Independent Work Verified by:** CYUSA Chaste  
-**Date:** February 16, 2026
 
----
-*Created for INSY 8311 – AUCA*
+
+
