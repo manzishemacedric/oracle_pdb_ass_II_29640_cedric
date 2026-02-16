@@ -1,5 +1,4 @@
-# 🚀 Oracle 21c Multitenant Lab
-### PDB Lifecycle Management & Administration 🛠️
+
 
 Welcome to the documentation for **Assignment II** of the **INSY 8311 - Database Development with PL/SQL** course. This repository showcases hands-on work with Oracle 21c Multitenant Architecture.
 
@@ -39,11 +38,11 @@ In this phase, I set up the main work environment for future development.
 
 - **PDB Identity:** `msc_pdb_29640`
 - **Root Admin:** `pdbadmin`
-- **Local Dev User:** `manzi_plsqlauca_29671`
+- **Local Dev User:** `manzi_plsqlauca_29640`
 
 **Steps Taken:**
 1. Logged into the CDB as `SYS`.
-2. Created the `msc_pdb_29671` pluggable database.
+2. Created the `msc_pdb_29640` pluggable database.
 3. Activated the PDB (switched status to OPEN).
 4. Created a dedicated user for PL/SQL development inside the PDB.
 5. Granted necessary roles to ensure the user can create tables and run queries.
